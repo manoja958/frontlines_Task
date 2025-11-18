@@ -1,0 +1,17 @@
+[
+{ "id": 1, "name": "TechNova Solutions", "location": "Bangalore", "industry": "Software" },
+{ "id": 2, "name": "GreenLeaf Organics", "location": "Hyderabad", "industry": "Agriculture" },
+{ "id": 3, "name": "SkyHigh Aerospace", "location": "Chennai", "industry": "Aerospace" },
+{ "id": 4, "name": "FinTrust Analytics", "location": "Mumbai", "industry": "Finance" },
+{ "id": 5, "name": "UrbanNest Realty", "location": "Delhi", "industry": "Real Estate" },
+{ "id": 6, "name": "AquaPure Systems", "location": "Pune", "industry": "Water Technology" },
+{ "id": 7, "name": "HealthBridge Labs", "location": "Kolkata", "industry": "Healthcare" },
+{ "id": 8, "name": "FoodCraft Beverages", "location": "Ahmedabad", "industry": "Food & Beverage" },
+{ "id": 9, "name": "BrightWave Energy", "location": "Vizag", "industry": "Renewable Energy" },
+{ "id": 10, "name": "RoboSpark Industries", "location": "Coimbatore", "industry": "Robotics" },
+{ "id": 11, "name": "PixelMint Studios", "location": "Bangalore", "industry": "Design & Media" },
+{ "id": 12, "name": "EduPrime Learning", "location": "Noida", "industry": "EdTech" },
+{ "id": 13, "name": "CloudSync Technologies", "location": "Hyderabad", "industry": "Cloud Computing" },
+{ "id": 14, "name": "SafeHome Security", "location": "Chennai", "industry": "Cybersecurity" },
+{ "id": 15, "name": "AgroFresh Farms", "location": "Nellore", "industry": "Agriculture" }
+]
