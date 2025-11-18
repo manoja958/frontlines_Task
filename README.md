@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 📦 Companies Directory — React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive **Companies Directory** built using **React.js** and **Material UI**, with filtering and sorting features.  
+This project is created as part of the **Frontend Developer Assignment – Frontlines Media**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo  
+🔗 **Deployed on Vercel:**  
+https://frontlines-task-kohl.vercel.app/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+companies-directory/
+├── public/
+│ └── companies.json
+├── src/
+│ ├── components/
+│ │ ├── CompanyTable.js
+│ │ └── FilterControls.js
+│ ├── App.js
+│ ├── index.js
+├── package.json
+└── README.md
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Features Implemented
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✅ Frontend (React.js)
+- Responsive UI using **Material-UI (MUI)**  
+- Displays companies in a clean **table format**  
+- **Search filter** (by name / location / industry)  
+- **Dropdown filters** for location & industry  
+- **Sorting** by:
+  - Name  
+  - Location  
+  - Industry  
+  - Ascending / Descending toggle  
+- **Reusable components**
+  - `CompanyTable.js`
+  - `FilterControls.js`
+- **State management with React Hooks**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔌 API Integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses a **mock API** using a static JSON file:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 `/public/companies.json`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fetching is done using:
+```js
+fetch('/companies.json')
+No backend is required.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🛠️ How to Run Locally
+Clone this repository:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/manoja958/frontlines_Task.git
+Go into the project folder:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd frontlines_Task/companies-directory
+Install dependencies:
 
-### Code Splitting
+npm install
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
+App will run at:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+http://localhost:3000/
